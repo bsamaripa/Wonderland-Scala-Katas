@@ -1,0 +1,3 @@
+object WonderlandNumber {
+  def wonderlandNumber() = {???}
+}
