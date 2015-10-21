@@ -9,25 +9,25 @@ addCommandAlias("WonderlandNumber", ";project WonderlandNumber;~test")
 lazy val commonSettings = Seq(
   version := "1.0",
 
-	scalaVersion := "2.11.7",
+  scalaVersion := "2.11.7",
 
   libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.5" % "test",
 
-	traceLevel := -1,
+  traceLevel := -1,
 
-	logLevel := Level.Info,
+  logLevel := Level.Info,
 
-	// disable printing timing information, but still print [success]
-	showTiming := false,
+  // disable printing timing information, but still print [success]
+  showTiming := false,
 
-	// disable printing a message indicating the success or failure of running a task
-	showSuccess := false,
+  // disable printing a message indicating the success or failure of running a task
+  showSuccess := false,
 
-	// append -deprecation to the options passed to the Scala compiler
-	scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature"),
+  // append -deprecation to the options passed to the Scala compiler
+  scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature"),
 
-	// disable updating dynamic revisions (including -SNAPSHOT versions)
-	offline := true
+  // disable updating dynamic revisions (including -SNAPSHOT versions)
+  offline := true
 
 )
 
