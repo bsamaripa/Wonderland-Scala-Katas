@@ -5,6 +5,7 @@ addCommandAlias("FoxGooseBagOfCorn", ";project FoxGooseBagOfCorn;~test")
 addCommandAlias("MagicSquare", ";project MagicSquare;~test")
 addCommandAlias("TinyMaze", ";project TinyMaze;~test")
 addCommandAlias("WonderlandNumber", ";project WonderlandNumber;~test")
+
 lazy val commonSettings = Seq(
   version := "1.0",
 
@@ -32,7 +33,7 @@ lazy val commonSettings = Seq(
 
 lazy val AlphabetCipher = (project in file("AlphabetCipher")).
   settings(commonSettings: _*)
-  
+
 lazy val CardGameWar = (project in file("CardGameWar")).
   settings(commonSettings: _*)
 

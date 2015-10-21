@@ -23,8 +23,7 @@ The rules of this card game are quite simple.
 ## Instructions
 
 - Clone or fork this repo
-- `cd card-game-war`
-- Run the tests with `lein test`
+- Run the tests with `sbt CardGameWar`
 - In this kata, you will be prompted to fill in your own tests.
 - Make the tests pass!
 
@@ -35,6 +34,8 @@ Once you have your kata solution, you are welcome to submit a link to your repo 
 If you haven't solved your kata yet - Don't Peek!
 
 ## License
+
+Copyright © 2015 Byron Samaripa
 
 Copyright © 2014 Carin Meier
 

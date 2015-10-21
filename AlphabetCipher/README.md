@@ -71,18 +71,18 @@ To decode, the person would use the secret keyword and do the opposite.
 ## Instructions
 
 - Clone or fork this repo
-- `cd alphabet-cipher`
-- Run the tests with `lein test`
+- Run the tests with `sbt AlphabetCipher`
 - Make the tests pass!
 
 ## Solutions
 
 Once you have your kata solution, you are welcome to submit a link to your repo to share here in this section with others.
 
-
 If you haven't solved your kata yet - Don't Peek!
 
 ## License
+
+Copyright © 2015 Byron Samaripa
 
 Copyright © 2014 Carin Meier
 
