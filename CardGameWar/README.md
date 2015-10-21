@@ -22,7 +22,6 @@ The rules of this card game are quite simple.
 
 ## Instructions
 
-- Clone or fork this repo
 - Run the tests with `sbt CardGameWar`
 - In this kata, you will be prompted to fill in your own tests.
 - Make the tests pass!
@@ -41,4 +40,3 @@ Copyright © 2014 Carin Meier
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
-

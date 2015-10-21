@@ -32,7 +32,6 @@ _:x_ in the start, the path, and the end of the maze, like this.
 
 ## Instructions
 
-- Clone or fork this repo
 - Run the tests with `sbt TinyMaze`
 - Make the tests pass!
 

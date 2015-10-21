@@ -41,7 +41,6 @@ The goal is to have the plan in steps so that all make it safely to the other si
 
 ## Instructions
 
-- Clone or fork this repo
 - Run the tests with `sbt FoxGooseBagOfCorn`
 - Make the tests pass!
 
@@ -59,4 +58,3 @@ Copyright © 2014 Carin Meier
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
-

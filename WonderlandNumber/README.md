@@ -15,7 +15,6 @@ You must find a way to generate this wonderland number.
 
 ## Instructions
 
-- Clone or fork this repo
 - Run the tests with `sbt WonderlandNumber`
 - Make the tests pass!
 

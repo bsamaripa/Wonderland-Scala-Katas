@@ -29,7 +29,6 @@ You need to arrange them in a 3 x 3 matrix so that:
 
 ## Instructions
 
-- Clone or fork this repo
 - Run the tests with `sbt MagicSquare`
 - Make the tests pass!
 

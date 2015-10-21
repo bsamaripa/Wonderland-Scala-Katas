@@ -70,7 +70,6 @@ To decode, the person would use the secret keyword and do the opposite.
 
 ## Instructions
 
-- Clone or fork this repo
 - Run the tests with `sbt AlphabetCipher`
 - Make the tests pass!
 
