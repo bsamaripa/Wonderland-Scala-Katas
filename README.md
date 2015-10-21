@@ -1,7 +1,6 @@
 # wonderland-scala-katas
 
-These are a collection of Scala
-[katas](http://en.wikipedia.org/wiki/Kata_%28programming%29) inspired by [Lewis Carroll](http://en.wikipedia.org/wiki/Lewis_Carroll) and _Alice in Wonderland_.
+This is a Scala port of  [wonderland-clojure-katas](https://github.com/gigasquid/wonderland-clojure-katas).  
 
 ![Alice and the tiny door](/images/alicedoor.gif)
 
