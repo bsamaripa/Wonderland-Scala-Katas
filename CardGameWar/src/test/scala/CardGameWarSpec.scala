@@ -10,7 +10,6 @@ class CardGameWarSpec extends WordSpec with Matchers {
     }
     "queens are higher rank than jacks" in {
       assert(playRound( Card("Spade", "Queen"), Card("Spade","Jack")) == Card("Spade", "Queen"))
-
     }
     "kings are higher rank than queens" in {
       assert(playRound( Card("Spade", "Queen"), Card("Spade","King")) == Card("Spade", "King"))
@@ -25,7 +24,7 @@ class CardGameWarSpec extends WordSpec with Matchers {
       assert(playRound( Card("Club", "Ace"), Card("Diamond","Ace")) == Card("Diamond", "Ace"))
     }
     "if the ranks are equal, hearts beat diamonds" in {
-      assert(playRound( Card("Club", "Heart"), Card("Diamond","Ace")) == Card("Heart", "Ace"))
+      assert(playRound( Card("Heart", "Ace"), Card("Diamond","Ace")) == Card("Heart", "Ace"))
     }
   }
   "playGame" when {
