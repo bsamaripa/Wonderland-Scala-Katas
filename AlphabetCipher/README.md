@@ -77,6 +77,8 @@ To decode, the person would use the secret keyword and do the opposite.
 
 Once you have your kata solution, you are welcome to submit a link to your repo to share here in this section with others.
 
+* https://github.com/bneil/Wonderland-Scala-Katas/tree/master/AlphabetCipher
+
 If you haven't solved your kata yet - Don't Peek!
 
 ## License
