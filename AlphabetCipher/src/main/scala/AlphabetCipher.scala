@@ -1,6 +1,6 @@
 object AlphabetCipher {
   def encode(keyword: String, message: String): String = {
-    keyword
+    ??? //keyword
   }
 
   def decode(keyword: String, message: String): String = {
