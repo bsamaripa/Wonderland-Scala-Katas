@@ -11,11 +11,17 @@ object CardGameWar {
   val suits = List("Spade", "Club", "Diamond", "Heart")
   val ranks = List("2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace")
 
-  // Creates a shuffled deck of cards
-  def createDeck: Deck = Deck(new Random shuffle(for {
-    suit <- suits
-    rank <- ranks
-  } yield Card(suit, rank)))
+  // Creates two shuffled decks of cards
+  def createDecks: (Deck, Deck) = {
+    val allCards =
+      new Random shuffle (for {
+        suit <- suits
+        rank <- ranks
+      } yield Card(suit, rank.toString))
+
+    val List(d1, d2) = allCards.grouped(allCards.length / 2).toList
+    (Deck(d1), Deck(d2))
+  }
 
   def playRound(player1: Card, player2: Card): Card = {
     ??? // Winning Card
