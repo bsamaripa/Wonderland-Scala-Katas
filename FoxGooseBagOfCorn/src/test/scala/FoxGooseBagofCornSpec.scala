@@ -20,12 +20,14 @@ class FoxGooseBagofCornSpec extends WordSpec {
       val leftBank = crossingPlan map (_.head)
       val rightBank = crossingPlan map (_.last)
 
+      def leftAloneTogether(them: ValueSet)(pos: ValueSet) = !(pos contains you) && (them subsetOf pos)
+
       "the fox and the goose should never be left alone together" in {
-        assert(!((leftBank ++ rightBank) contains (fox + goose)))
+        assert(!((leftBank ++ rightBank) exists leftAloneTogether(fox + goose)))
       }
 
       "the goose and the corn should never be left alone together" in {
-        assert(!((leftBank ++ rightBank) contains (goose + corn)))
+        assert(!((leftBank ++ rightBank) exists leftAloneTogether(goose + corn)))
       }
     }
 
