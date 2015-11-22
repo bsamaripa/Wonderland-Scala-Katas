@@ -32,16 +32,16 @@ class FoxGooseBagofCornSpec extends WordSpec {
     }
 
     "The boat can carry only you plus one other" in {
-      val boatPositions = crossingPlan map (_ (2))
+      val boatPositions = crossingPlan map (_ (1))
       assert(!(boatPositions exists (_.size > 2)))
     }
 
     "moves are valid" in {
       val leftMoves = crossingPlan map (_.head)
-      val middleMoves = crossingPlan map (_ (2))
+      val middleMoves = crossingPlan map (_ (1))
       val rightMoves = crossingPlan map (_.last)
 
-      def validateMove(step1: ValueSet, step2: ValueSet) {
+      def validateMove(step1: ValueSet, step2: ValueSet): Unit = {
         val diff1 = step1 diff step2
         val diff2 = step2 diff step1
         val diffs = diff1 ++ diff2
@@ -50,7 +50,7 @@ class FoxGooseBagofCornSpec extends WordSpec {
         if (diffNum > 0)
           assert(diffs contains you, "only you and another thing can move")
       }
-      def validateMoves(moves: Seq[ValueSet]) {
+      def validateMoves(moves: Seq[ValueSet]): Unit = {
         moves sliding 2 foreach {
           case Seq(step1, step2) => validateMove(step1, step2)
           case _ =>
