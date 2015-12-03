@@ -7,7 +7,7 @@ addCommandAlias("TinyMaze", ";project TinyMaze;~test")
 addCommandAlias("WonderlandNumber", ";project WonderlandNumber;~test")
 
 lazy val commonSettings = Seq(
-  version := "1.0",
+  version := "1.0.1",
 
   scalaVersion := "2.11.7",
 
