@@ -1,10 +1,12 @@
-# wonderland-scala-katas
+# wonderland-scala-katas 
 
 This is a Scala port of  [wonderland-clojure-katas](https://github.com/gigasquid/wonderland-clojure-katas).  
 
 ![Alice and the tiny door](/images/alicedoor.gif)
 
 >“Curiouser and curiouser!” -- ― Lewis Carroll, Alice in Wonderland
+
+[![Build Status](https://travis-ci.org/bsamaripa/Wonderland-Scala-Katas.svg?branch=master)](https://travis-ci.org/bsamaripa/Wonderland-Scala-Katas)
 
 ## How to Do the Katas
 
