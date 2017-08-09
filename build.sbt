@@ -11,7 +11,7 @@ lazy val commonSettings = Seq(
 
   scalaVersion := "2.12.3",
 
-  libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.5" % "test",
+  libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.3" % "test",
 
   traceLevel := -1,
 
