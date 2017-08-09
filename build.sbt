@@ -9,7 +9,7 @@ addCommandAlias("WonderlandNumber", ";project WonderlandNumber;~test")
 lazy val commonSettings = Seq(
   version := "1.0.1",
 
-  scalaVersion := "2.11.7",
+  scalaVersion := "2.12.3",
 
   libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.5" % "test",
 
