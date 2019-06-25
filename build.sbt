@@ -7,13 +7,13 @@ addCommandAlias("TinyMaze", ";project TinyMaze;~test")
 addCommandAlias("WonderlandNumber", ";project WonderlandNumber;~test")
 
 ThisBuild / version := "1.1.1"
-ThisBuild / scalaVersion := "2.12.8"
+ThisBuild / scalaVersion := "2.13.0"
 ThisBuild / traceLevel := -1
 ThisBuild / logLevel := Level.Info
 ThisBuild / showTiming := false
 ThisBuild / showSuccess := false
 ThisBuild / scalacOptions ++= Seq("-deprecation", "-unchecked", "-feature")
-ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % "test"
 
 lazy val AlphabetCipher = project
 lazy val CardGameWar = project
