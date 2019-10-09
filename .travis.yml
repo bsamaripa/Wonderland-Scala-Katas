@@ -1,6 +1,6 @@
 language: scala
 scala:
-     - 2.12.8
+     - 2.13.1
 jdk:
-     - oraclejdk8
+     - openjdk10
 script: sbt ++$TRAVIS_SCALA_VERSION compile

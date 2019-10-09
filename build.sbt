@@ -7,7 +7,7 @@ addCommandAlias("TinyMaze", ";project TinyMaze;~test")
 addCommandAlias("WonderlandNumber", ";project WonderlandNumber;~test")
 
 ThisBuild / version := "1.1.1"
-ThisBuild / scalaVersion := "2.13.0"
+ThisBuild / scalaVersion := "2.13.1"
 ThisBuild / traceLevel := -1
 ThisBuild / logLevel := Level.Info
 ThisBuild / showTiming := false
